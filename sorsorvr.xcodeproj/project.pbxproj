@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD836CF2A44287400CE33C1 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 0CD836CE2A44287400CE33C1 /* RealityKitContent */; };
+		0CD836D12A44287400CE33C1 /* sorsorvrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD836D02A44287400CE33C1 /* sorsorvrApp.swift */; };
+		0CD836D32A44287400CE33C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD836D22A44287400CE33C1 /* ContentView.swift */; };
+		0CD836D52A44287500CE33C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD836D42A44287500CE33C1 /* Assets.xcassets */; };
+		0CD836D82A44287500CE33C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD836D72A44287500CE33C1 /* Preview Assets.xcassets */; };
+		0CD836E22A44287500CE33C1 /* sorsorvrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD836E12A44287500CE33C1 /* sorsorvrTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CD836DE2A44287500CE33C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD836C12A44287400CE33C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD836C82A44287400CE33C1;
+			remoteInfo = sorsorvr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD836C92A44287400CE33C1 /* sorsorvr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sorsorvr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD836CD2A44287400CE33C1 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		0CD836D02A44287400CE33C1 /* sorsorvrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorsorvrApp.swift; sourceTree = "<group>"; };
+		0CD836D22A44287400CE33C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CD836D42A44287500CE33C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CD836D72A44287500CE33C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CD836DD2A44287500CE33C1 /* sorsorvrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sorsorvrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD836E12A44287500CE33C1 /* sorsorvrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorsorvrTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CD836C62A44287400CE33C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD836CF2A44287400CE33C1 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD836DA2A44287500CE33C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD836C02A44287400CE33C1 = {
+			isa = PBXGroup;
+			children = (
+				0CD836CB2A44287400CE33C1 /* sorsorvr */,
+				0CD836CC2A44287400CE33C1 /* Packages */,
+				0CD836E02A44287500CE33C1 /* sorsorvrTests */,
+				0CD836CA2A44287400CE33C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CD836CA2A44287400CE33C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CD836C92A44287400CE33C1 /* sorsorvr.app */,
+				0CD836DD2A44287500CE33C1 /* sorsorvrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CD836CB2A44287400CE33C1 /* sorsorvr */ = {
+			isa = PBXGroup;
+			children = (
+				0CD836D02A44287400CE33C1 /* sorsorvrApp.swift */,
+				0CD836D22A44287400CE33C1 /* ContentView.swift */,
+				0CD836D42A44287500CE33C1 /* Assets.xcassets */,
+				0CD836D62A44287500CE33C1 /* Preview Content */,
+			);
+			path = sorsorvr;
+			sourceTree = "<group>";
+		};
+		0CD836CC2A44287400CE33C1 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				0CD836CD2A44287400CE33C1 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		0CD836D62A44287500CE33C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CD836D72A44287500CE33C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CD836E02A44287500CE33C1 /* sorsorvrTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD836E12A44287500CE33C1 /* sorsorvrTests.swift */,
+			);
+			path = sorsorvrTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CD836C82A44287400CE33C1 /* sorsorvr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD836E52A44287500CE33C1 /* Build configuration list for PBXNativeTarget "sorsorvr" */;
+			buildPhases = (
+				0CD836C52A44287400CE33C1 /* Sources */,
+				0CD836C62A44287400CE33C1 /* Frameworks */,
+				0CD836C72A44287400CE33C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sorsorvr;
+			packageProductDependencies = (
+				0CD836CE2A44287400CE33C1 /* RealityKitContent */,
+			);
+			productName = sorsorvr;
+			productReference = 0CD836C92A44287400CE33C1 /* sorsorvr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CD836DC2A44287500CE33C1 /* sorsorvrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD836E82A44287500CE33C1 /* Build configuration list for PBXNativeTarget "sorsorvrTests" */;
+			buildPhases = (
+				0CD836D92A44287500CE33C1 /* Sources */,
+				0CD836DA2A44287500CE33C1 /* Frameworks */,
+				0CD836DB2A44287500CE33C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CD836DF2A44287500CE33C1 /* PBXTargetDependency */,
+			);
+			name = sorsorvrTests;
+			productName = sorsorvrTests;
+			productReference = 0CD836DD2A44287500CE33C1 /* sorsorvrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CD836C12A44287400CE33C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0CD836C82A44287400CE33C1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0CD836DC2A44287500CE33C1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0CD836C82A44287400CE33C1;
+					};
+				};
+			};
+			buildConfigurationList = 0CD836C42A44287400CE33C1 /* Build configuration list for PBXProject "sorsorvr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CD836C02A44287400CE33C1;
+			productRefGroup = 0CD836CA2A44287400CE33C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CD836C82A44287400CE33C1 /* sorsorvr */,
+				0CD836DC2A44287500CE33C1 /* sorsorvrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CD836C72A44287400CE33C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD836D82A44287500CE33C1 /* Preview Assets.xcassets in Resources */,
+				0CD836D52A44287500CE33C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD836DB2A44287500CE33C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD836C52A44287400CE33C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD836D32A44287400CE33C1 /* ContentView.swift in Sources */,
+				0CD836D12A44287400CE33C1 /* sorsorvrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD836D92A44287500CE33C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD836E22A44287500CE33C1 /* sorsorvrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CD836DF2A44287500CE33C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD836C82A44287400CE33C1 /* sorsorvr */;
+			targetProxy = 0CD836DE2A44287500CE33C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CD836E32A44287500CE33C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		0CD836E42A44287500CE33C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		0CD836E62A44287500CE33C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sorsorvr/Preview Content\"";
+				DEVELOPMENT_TEAM = 68BFR7J7SJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sorsor.sorsorvr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		0CD836E72A44287500CE33C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sorsorvr/Preview Content\"";
+				DEVELOPMENT_TEAM = 68BFR7J7SJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sorsor.sorsorvr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		0CD836E92A44287500CE33C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68BFR7J7SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sorsor.sorsorvrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sorsorvr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sorsorvr";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		0CD836EA2A44287500CE33C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68BFR7J7SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sorsor.sorsorvrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sorsorvr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sorsorvr";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD836C42A44287400CE33C1 /* Build configuration list for PBXProject "sorsorvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD836E32A44287500CE33C1 /* Debug */,
+				0CD836E42A44287500CE33C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD836E52A44287500CE33C1 /* Build configuration list for PBXNativeTarget "sorsorvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD836E62A44287500CE33C1 /* Debug */,
+				0CD836E72A44287500CE33C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD836E82A44287500CE33C1 /* Build configuration list for PBXNativeTarget "sorsorvrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD836E92A44287500CE33C1 /* Debug */,
+				0CD836EA2A44287500CE33C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CD836CE2A44287400CE33C1 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0CD836C12A44287400CE33C1 /* Project object */;
+}
